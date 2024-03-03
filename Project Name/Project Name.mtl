@@ -1,0 +1,4 @@
+newmtl Infinity
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd Globe_Component&Globe_Component.png
