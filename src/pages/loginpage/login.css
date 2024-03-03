@@ -1,0 +1,15 @@
+/* Layout size */
+
+#login {
+    width: 1421px;
+    height: 1020px; 
+    flex-shrink: 0;
+    /* background tree image  */
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+l1 {
+
+       
+
+}
