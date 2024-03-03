@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './import.css'
 
 const SignUp = () => {
   const [username, setUsername] = useState('');
@@ -28,7 +29,7 @@ const SignUp = () => {
       {error && <div className="alert alert-danger">{error}</div>}
       <form>
         <div className="mb-3">
-          <label htmlFor="username" className="form-label">
+          <label htmlFor="Login with Organization" className="form-label">
             Username
           </label>
           <input
